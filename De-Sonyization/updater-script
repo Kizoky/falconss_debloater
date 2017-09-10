@@ -1,0 +1,20 @@
+# ===================== Clean up =====================
+set_progress(0.900000);
+ui_print("");
+ui_print("");
+ui_print("Xperia E1 DeSony-ization by Kizoky");
+ui_print("This removes ALL Sony apps");
+ui_print("Combine it with Debloater for best results");
+mount("ext4", "EMMC", "/dev/block/platform/msm_sdcc.1/by-name/system", "/system");
+ui_print("Removing bloatware please wait...");
+delete("/system/priv-app/filecommander.apk");
+delete("/system/priv-app/SemcAlbum.apk");
+delete("/system/priv-app/SemcMusic.apk");
+delete("/system/priv-app/SemcVideo.apk");
+unmount("/system");
+ui_print("");
+ui_print("");
+set_progress(1.000000);
+ui_print("Finished!");
+ui_print("Updated: 2016.05.03.");
+ui_print(" ");
