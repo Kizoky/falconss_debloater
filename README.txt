@@ -8,3 +8,5 @@ This script's purpose is to make the ROM lighter as the kernel already sucks tha
 Although it really gives boost to the performance, but because of the Sony problem the phone will still lag regardless of what will you remove within the ROM.
 
 I suggest any stranger who wanders here with Xperia E1 phone to download Caio's latest available kernel from XDA as it is 1000% much better than the crappy Stock kernel.
+
+Note: Github breaks the "formating" so the scripts won't work if you just create a zip file for the script.
